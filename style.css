@@ -1,6 +1,9 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 ul {
@@ -158,4 +161,19 @@ a {
   color: #f9faf8;
   border: 2px solid #f9faf8;
   border-radius: 8px;
+}
+
+.second-section,
+.quote-section,
+.call-to-action-box {
+  flex: 1 1 auto;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 }
