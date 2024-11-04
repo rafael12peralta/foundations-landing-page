@@ -56,7 +56,7 @@ a {
   background-color: #3882f6;
   border-radius: 5px;
   border: 0;
-  padding: 6px 25px;
+  padding: 6px 30px;
   color: #f9faf8;
   font-weight: 700;
   font-size: 18px;
@@ -99,4 +99,63 @@ a {
 
 .card p {
   margin: 0;
+}
+
+.second-section {
+  margin-bottom: 70px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 550px;
+}
+
+#quote {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+  text-align: justify;
+}
+
+#author {
+  margin: 0;
+  text-align: end;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.call-to-action-box {
+  background-color: #3882f6;
+  margin: 100px 480px;
+  padding: 40px 100px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #f9faf8;
+}
+
+.call-to-action-box p {
+  margin: 0;
+  padding: 0;
+}
+
+.call-to-action-box #main-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.call-to-action-box #secondary-text {
+  font-size: 16px;
+}
+
+.call-to-action-box button {
+  margin: 0;
+  padding: 6px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
 }
